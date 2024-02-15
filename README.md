@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unaryFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@deno/mod.js';
+import unaryFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@v0.2.0-deno/mod.js';
 ```
 
 #### unaryFactory( prng )
@@ -462,7 +462,7 @@ import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-expon
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import unaryFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@deno/mod.js';
+import unaryFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@v0.2.0-deno/mod.js';
 
 // Create a PRNG factory function:
 var factory = unaryFactory( exponential );
