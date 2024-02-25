@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+unaryFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-strided-tools-unary-factory/tags). For example,
+
+```javascript
 unaryFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var unaryFactory = require( 'path/to/vendor/umd/random-strided-tools-unary-facto
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -489,7 +494,7 @@ var sz = random.byteLength;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-tools-unary-factory@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
